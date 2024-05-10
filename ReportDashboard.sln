@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboardAPI", "ReportDashboardAPI\ReportDashboardAPI.csproj", "{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboardWEBUI", "ReportDashboardWEBUI\ReportDashboardWEBUI.csproj", "{397D3C39-2933-44E7-9657-798F303144F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.EntityLayer", "ReportDashboard.EntityLayer\ReportDashboard.EntityLayer.csproj", "{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.DataAccessLayer", "ReportDashboard.DataAccessLayer\ReportDashboard.DataAccessLayer.csproj", "{9E0020D0-5D3C-4CED-A17D-CBC957567566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.DtoLayer", "ReportDashboard.DtoLayer\ReportDashboard.DtoLayer.csproj", "{22F2CCD5-5BFD-465D-A85A-681ED076DF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDasboard.BusinessLayer", "ReportDasboard.BusinessLayer\ReportDasboard.BusinessLayer.csproj", "{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397D3C39-2933-44E7-9657-798F303144F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397D3C39-2933-44E7-9657-798F303144F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397D3C39-2933-44E7-9657-798F303144F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397D3C39-2933-44E7-9657-798F303144F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0020D0-5D3C-4CED-A17D-CBC957567566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0020D0-5D3C-4CED-A17D-CBC957567566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0020D0-5D3C-4CED-A17D-CBC957567566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0020D0-5D3C-4CED-A17D-CBC957567566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F2CCD5-5BFD-465D-A85A-681ED076DF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F2CCD5-5BFD-465D-A85A-681ED076DF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F2CCD5-5BFD-465D-A85A-681ED076DF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F2CCD5-5BFD-465D-A85A-681ED076DF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE722101-6C78-4D8C-89D6-6FA3C914FFB8}
+	EndGlobalSection
+EndGlobal
