@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportDashboard.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+788905844931ba4b478ca495036c05e6d967905e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01185caa7f7f7c8223965f374fcfe020138ff512")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportDashboard.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportDashboard.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
