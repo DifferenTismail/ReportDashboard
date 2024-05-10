@@ -1,0 +1,17 @@
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DataAccessLayer.deps.json
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DataAccessLayer.runtimeconfig.json
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DataAccessLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DataAccessLayer.pdb
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.EntityLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.EntityLayer.pdb
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.csproj.AssemblyReference.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.AssemblyInfoInputs.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.AssemblyInfo.cs
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDa.4BBB75BA.Up2Date
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\refint\ReportDashboard.DataAccessLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.pdb
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.genruntimeconfig.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ref\ReportDashboard.DataAccessLayer.dll
