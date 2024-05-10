@@ -11,7 +11,7 @@ namespace ReportDashboard.DataAccessLayer.Abstract
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);
-        T GetByID(T entity);
+        T GetByID(int id);
         List<T> GetListAll();
     }
 }
