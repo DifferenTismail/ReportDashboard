@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ReportDashboard.DataAccessLayer\ReportDashboard.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\ReportDashboard.EntityLayer\ReportDashboard.EntityLayer.csproj" />
   </ItemGroup>
 
 </Project>
