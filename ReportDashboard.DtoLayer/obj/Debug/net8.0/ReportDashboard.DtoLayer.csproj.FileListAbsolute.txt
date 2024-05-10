@@ -1,0 +1,11 @@
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.deps.json
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.pdb
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.AssemblyInfoInputs.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.AssemblyInfo.cs
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.csproj.CoreCompileInputs.cache
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\refint\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.pdb
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ref\ReportDashboard.DtoLayer.dll
