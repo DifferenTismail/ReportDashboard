@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cSharpDersleri\\ReportDashboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\reportdashboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\reportdashboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 358,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportDashboardAPI.csproj",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\ReportDashboardAPI.csproj",
+              "RelativeDocumentMoniker": "ReportDashboardAPI\\ReportDashboardAPI.csproj",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\ReportDashboardAPI.csproj",
+              "RelativeToolTip": "ReportDashboardAPI\\ReportDashboardAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-10T14:27:14.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

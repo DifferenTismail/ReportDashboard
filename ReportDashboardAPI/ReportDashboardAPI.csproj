@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReportDashboard.BusinessLayer\ReportDashboard.BusinessLayer.csproj" />
+    <ProjectReference Include="..\ReportDasboard.BusinessLayer\ReportDashboard.BusinessLayer.csproj" />
   </ItemGroup>
 
 </Project>
