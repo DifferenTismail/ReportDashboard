@@ -28,3 +28,4 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\refint\R
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ReportDashboardWEBUI.pdb
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ReportDashboardWEBUI.genruntimeconfig.cache
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ref\ReportDashboardWEBUI.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ReportDashboardWEBUI.sourcelink.json

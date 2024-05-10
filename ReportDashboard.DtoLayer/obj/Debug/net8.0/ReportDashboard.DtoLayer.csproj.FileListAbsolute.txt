@@ -9,3 +9,4 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\Repo
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\refint\ReportDashboard.DtoLayer.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.pdb
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ref\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DtoLayer\obj\Debug\net8.0\ReportDashboard.DtoLayer.sourcelink.json

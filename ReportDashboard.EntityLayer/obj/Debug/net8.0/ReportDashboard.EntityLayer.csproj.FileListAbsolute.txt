@@ -9,3 +9,4 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboard.EntityLayer\obj\Debug\net8.0\R
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.EntityLayer\obj\Debug\net8.0\refint\ReportDashboard.EntityLayer.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.EntityLayer\obj\Debug\net8.0\ReportDashboard.EntityLayer.pdb
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.EntityLayer\obj\Debug\net8.0\ref\ReportDashboard.EntityLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.EntityLayer\obj\Debug\net8.0\ReportDashboard.EntityLayer.sourcelink.json

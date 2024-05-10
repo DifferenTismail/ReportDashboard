@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboardAPI", "ReportDashboardAPI\ReportDashboardAPI.csproj", "{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboardAPI", "ReportDashboardAPI\ReportDashboardAPI.csproj", "{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboardWEBUI", "ReportDashboardWEBUI\ReportDashboardWEBUI.csproj", "{397D3C39-2933-44E7-9657-798F303144F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboardWEBUI", "ReportDashboardWEBUI\ReportDashboardWEBUI.csproj", "{397D3C39-2933-44E7-9657-798F303144F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.EntityLayer", "ReportDashboard.EntityLayer\ReportDashboard.EntityLayer.csproj", "{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboard.EntityLayer", "ReportDashboard.EntityLayer\ReportDashboard.EntityLayer.csproj", "{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.DataAccessLayer", "ReportDashboard.DataAccessLayer\ReportDashboard.DataAccessLayer.csproj", "{9E0020D0-5D3C-4CED-A17D-CBC957567566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboard.DataAccessLayer", "ReportDashboard.DataAccessLayer\ReportDashboard.DataAccessLayer.csproj", "{9E0020D0-5D3C-4CED-A17D-CBC957567566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDashboard.DtoLayer", "ReportDashboard.DtoLayer\ReportDashboard.DtoLayer.csproj", "{22F2CCD5-5BFD-465D-A85A-681ED076DF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboard.DtoLayer", "ReportDashboard.DtoLayer\ReportDashboard.DtoLayer.csproj", "{22F2CCD5-5BFD-465D-A85A-681ED076DF13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportDasboard.BusinessLayer", "ReportDasboard.BusinessLayer\ReportDasboard.BusinessLayer.csproj", "{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportDashboard.BusinessLayer", "ReportDasboard.BusinessLayer\ReportDashboard.BusinessLayer.csproj", "{30A77BF2-5573-49D5-A27D-9FBEDC76D6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
