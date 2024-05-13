@@ -5,7 +5,7 @@
 namespace ReportDashboard.DataAccessLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class initialize : Migration
+    public partial class mig_add_first_commit : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,6 +17,7 @@ namespace ReportDashboard.DataAccessLayer.Migrations
                     DbTableID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DbTable_ServerName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DbTable_Database = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DbTable_UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DbTable_Password = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -31,22 +32,33 @@ namespace ReportDashboard.DataAccessLayer.Migrations
                 {
                     ReportID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ReportName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ReportName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DbTableID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Reports", x => x.ReportID);
+                    table.ForeignKey(
+                        name: "FK_Reports_DbTables_DbTableID",
+                        column: x => x.DbTableID,
+                        principalTable: "DbTables",
+                        principalColumn: "DbTableID");
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Reports_DbTableID",
+                table: "Reports",
+                column: "DbTableID");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "DbTables");
+                name: "Reports");
 
             migrationBuilder.DropTable(
-                name: "Reports");
+                name: "DbTables");
         }
     }
 }

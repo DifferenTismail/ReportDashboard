@@ -10,10 +10,7 @@ namespace ReportDashboard.DataAccessLayer.Concrete
 {
     public class ReportDashboardContext:DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-AV376HC\\SQLEXPRESS; Initial Catalog=ReportDb; Integrated Security=True; TrustServerCertificate=True") ;
-        }
+        public ReportDashboardContext(DbContextOptions<ReportDashboardContext> options) : base(options) { }
         public DbSet<DbTable> DbTables{ get; set; }
         public DbSet<Report> Reports{ get; set; }
     }

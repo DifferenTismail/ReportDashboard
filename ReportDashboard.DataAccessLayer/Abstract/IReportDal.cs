@@ -9,5 +9,6 @@ namespace ReportDashboard.DataAccessLayer.Abstract
 {
     public interface IReportDal : IGenericDal<Report>
     {
+        List<Report> GetReportsWithDbTable();
     }
 }
