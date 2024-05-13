@@ -12,5 +12,7 @@ namespace ReportDashboard.EntityLayer.Entities
         [Key]
         public int ReportID { get; set; }
         public string ReportName { get; set; }
+        public int? DbTableID {  get; set; }
+        public DbTable DbTable { get; set; }
     }
 }
