@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "CreateDbTable",
+    "RelativePath": "api/DbTable/CreateDbTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDbTableDto",
+        "Type": "ReportDashboard.DtoLayer.DbTableDto.CreateDbTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "DeleteDbTable",
+    "RelativePath": "api/DbTable/DbTableDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "DbTableList",
+    "RelativePath": "api/DbTable/DbTableList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "DbTableUpdate",
+    "RelativePath": "api/DbTable/DbTableUpdate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDbTableDto",
+        "Type": "ReportDashboard.DtoLayer.DbTableDto.UpdateDbTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "GetDbTable",
+    "RelativePath": "api/DbTable/GetDbTable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
+    "Method": "VeriTabaniBaglantisi",
+    "RelativePath": "api/DbTable/VeriTabaniBaglantisi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ReportDashboard.DtoLayer.DbTableDto.GetDbTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "CreateReport",
+    "RelativePath": "api/Report/CreateReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createReportDto",
+        "Type": "ReportDashboard.DtoLayer.ReportDto.CreateReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "GetReport",
+    "RelativePath": "api/Report/GetReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Report/ReportDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "ReportList",
+    "RelativePath": "api/Report/ReportList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "ReportListWithDbTable_UserName",
+    "RelativePath": "api/Report/ReportListWithDbTable_UserName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
+    "Method": "UpdateReport",
+    "RelativePath": "api/Report/UpdateReport",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateReportDto",
+        "Type": "ReportDashboard.DtoLayer.ReportDto.UpdateReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

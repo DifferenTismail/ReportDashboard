@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ReportDashboard.BusinessLayer.Abstarct;
+using ReportDashboard.DataAccessLayer.Concrete;
 using ReportDashboard.DtoLayer.ReportDto;
 using ReportDashboard.EntityLayer.Entities;
 
@@ -11,16 +14,31 @@ namespace ReportDashboardAPI.Controllers
     public class ReportController : ControllerBase
     {
         private readonly IReportService _reportService;
+        private readonly IMapper _mapper;
+        private readonly ReportDashboardContext context;
 
-        public ReportController(IReportService reportService)
+        public ReportController(IReportService reportService, IMapper mapper, ReportDashboardContext context)
         {
             _reportService = reportService;
+            _mapper = mapper;
+            this.context = context;
         }
         [HttpGet("ReportList")]
         public IActionResult ReportList()
         {
-            var values = _reportService.TGetListAll();
+            var values = _mapper.Map<List<ResultReportDto>>(_reportService.TGetListAll());
             return Ok(values);
+        }
+        [HttpGet("ReportListWithDbTable_UserName")]
+        public IActionResult ReportListWithDbTable_UserName()
+        {
+            var values = context.Reports.Include(x => x.DbTable).Select(y => new ResultReportWithDbTable
+            {
+                ReportID = y.ReportID,
+                ReportName = y.ReportName,
+                DbTable_UserName = y.DbTable.DbTable_UserName
+            });
+            return Ok(values.ToList());
         }
         [HttpPost("CreateReport")]
         public IActionResult CreateReport(CreateReportDto createReportDto) 

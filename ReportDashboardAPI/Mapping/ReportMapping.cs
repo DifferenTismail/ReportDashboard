@@ -12,6 +12,7 @@ namespace ReportDashboardAPI.Mapping
             CreateMap<Report, CreateReportDto>().ReverseMap();
             CreateMap<Report, GetReportDto>().ReverseMap();
             CreateMap<Report, UpdateReportDto>().ReverseMap();
+            CreateMap<Report, ResultReportWithDbTable>().ReverseMap();
         }
     }
 }

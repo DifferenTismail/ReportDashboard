@@ -142,6 +142,5 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\obj\Debug\net8.0\ReportDash
 C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\obj\Debug\net8.0\ReportDashboardAPI.genruntimeconfig.cache
 C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\obj\Debug\net8.0\ref\ReportDashboardAPI.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\bin\Debug\net8.0\AutoMapper.dll
-C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\bin\Debug\net8.0\ReportDashboard.DtoLayer.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboardAPI\bin\Debug\net8.0\ReportDashboard.DtoLayer.pdb
