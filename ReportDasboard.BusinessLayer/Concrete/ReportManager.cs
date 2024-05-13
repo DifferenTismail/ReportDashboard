@@ -38,6 +38,11 @@ namespace ReportDashboard.BusinessLayer.Concrete
             return _reportDal.GetListAll();
         }
 
+        public List<Report> TGetReportsWithDbTable()
+        {
+            return _reportDal.GetReportsWithDbTable();
+        }
+
         public void TUpdate(Report entity)
         {
             _reportDal.Update(entity);

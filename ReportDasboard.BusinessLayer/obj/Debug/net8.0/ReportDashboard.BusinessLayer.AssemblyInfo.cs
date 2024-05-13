@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportDashboard.BusinessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19a07d5a8ccb9a5b5182e925716830440198651d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ac59b487ce0dd345f9fc2182a6594e7fb8536ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportDashboard.BusinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportDashboard.BusinessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

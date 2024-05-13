@@ -9,5 +9,6 @@ namespace ReportDashboard.BusinessLayer.Abstarct
 {
     public interface IReportService:IGenericService<Report>
     {
+        List<Report> TGetReportsWithDbTable();
     }
 }
