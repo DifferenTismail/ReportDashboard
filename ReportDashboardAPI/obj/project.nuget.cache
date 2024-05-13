@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1DlEaP3g8piI9qAKPK0QU/+o021+Bzna/K6QYDFLt8k1A3dAp3aYvsQqF8TTPpxbFc7G1TRqUWQnhK6oly1OyQ==",
+  "dgSpecHash": "pPTmdXPLkYuNI1Qozff5r+4mKPQzXPnDRp9zqMyPtenFVrIztxjSwJVCyBwGPYkP/3lqllxnYShhP7pKedhxaQ==",
   "success": true,
   "projectFilePath": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\ReportDashboardAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ismai\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ismai\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ismai\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ismai\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ismai\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -86,5 +88,16 @@
     "C:\\Users\\ismai\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ismai\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
