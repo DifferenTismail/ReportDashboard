@@ -16,5 +16,6 @@ namespace ReportDashboard.EntityLayer.Entities
         public string? DbTable_UserName { get; set; }
         public string? DbTable_Password { get; set; }
         public List<Report> Reports { get; set; }
+        public List<WriteQuery> WriteQueries { get; set; }
     }
 }
