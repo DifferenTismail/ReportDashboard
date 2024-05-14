@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportDashboardWEBUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ac59b487ce0dd345f9fc2182a6594e7fb8536ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c5381bd2d522887fd610251fc3e71008697e9a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportDashboardWEBUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportDashboardWEBUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
