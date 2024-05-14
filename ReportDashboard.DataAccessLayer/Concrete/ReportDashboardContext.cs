@@ -13,5 +13,6 @@ namespace ReportDashboard.DataAccessLayer.Concrete
         public ReportDashboardContext(DbContextOptions<ReportDashboardContext> options) : base(options) { }
         public DbSet<DbTable> DbTables{ get; set; }
         public DbSet<Report> Reports{ get; set; }
+        public DbSet<WriteQuery> WriteQueries { get; set; }
     }
 }

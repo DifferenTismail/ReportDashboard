@@ -12,8 +12,8 @@ using ReportDashboard.DataAccessLayer.Concrete;
 namespace ReportDashboard.DataAccessLayer.Migrations
 {
     [DbContext(typeof(ReportDashboardContext))]
-    [Migration("20240513141622_mig_add_first_commit")]
-    partial class mig_add_first_commit
+    [Migration("20240514065532_mig_add_new_relation_and_new_table")]
+    partial class mig_add_new_relation_and_new_table
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,6 +74,28 @@ namespace ReportDashboard.DataAccessLayer.Migrations
                     b.ToTable("Reports");
                 });
 
+            modelBuilder.Entity("ReportDashboard.EntityLayer.Entities.WriteQuery", b =>
+                {
+                    b.Property<int>("WriteQueryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WriteQueryID"));
+
+                    b.Property<int?>("DbTableID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Query")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("WriteQueryID");
+
+                    b.HasIndex("DbTableID");
+
+                    b.ToTable("WriteQueries");
+                });
+
             modelBuilder.Entity("ReportDashboard.EntityLayer.Entities.Report", b =>
                 {
                     b.HasOne("ReportDashboard.EntityLayer.Entities.DbTable", "DbTable")
@@ -83,9 +105,20 @@ namespace ReportDashboard.DataAccessLayer.Migrations
                     b.Navigation("DbTable");
                 });
 
+            modelBuilder.Entity("ReportDashboard.EntityLayer.Entities.WriteQuery", b =>
+                {
+                    b.HasOne("ReportDashboard.EntityLayer.Entities.DbTable", "DbTable")
+                        .WithMany("WriteQueries")
+                        .HasForeignKey("DbTableID");
+
+                    b.Navigation("DbTable");
+                });
+
             modelBuilder.Entity("ReportDashboard.EntityLayer.Entities.DbTable", b =>
                 {
                     b.Navigation("Reports");
+
+                    b.Navigation("WriteQueries");
                 });
 #pragma warning restore 612, 618
         }
