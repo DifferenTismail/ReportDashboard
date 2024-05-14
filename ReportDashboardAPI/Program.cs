@@ -26,6 +26,9 @@ builder.Services.AddScoped<IReportDal, EfReportDal>();
 builder.Services.AddScoped<IDbTableService, DbTableManager>();
 builder.Services.AddScoped<IDbTableDal, EfDbTableDal>();
 
+builder.Services.AddScoped<IWriteQueryService, WriteQueryManager>();
+builder.Services.AddScoped<IWriteQueryDal, EfWriteQueryDal>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

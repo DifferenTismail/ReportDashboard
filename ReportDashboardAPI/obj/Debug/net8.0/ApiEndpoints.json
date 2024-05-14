@@ -172,5 +172,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.WriteQueryController",
+    "Method": "CreateWriteQuery",
+    "RelativePath": "api/WriteQuery/CreateWriteQuery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createWriteQueryDto",
+        "Type": "ReportDashboard.DtoLayer.WriteQueryDto.CreateWriteQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.WriteQueryController",
+    "Method": "DeleteWriteQuery",
+    "RelativePath": "api/WriteQuery/DeleteWriteQuery",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.WriteQueryController",
+    "Method": "GetWriteQuery",
+    "RelativePath": "api/WriteQuery/GetWriteQuery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.WriteQueryController",
+    "Method": "UpdateWriteQuery",
+    "RelativePath": "api/WriteQuery/UpdateWriteQuery",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateWriteQueryDto",
+        "Type": "ReportDashboard.DtoLayer.WriteQueryDto.UpdateWriteQueryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportDashboardAPI.Controllers.WriteQueryController",
+    "Method": "WriteQueryList",
+    "RelativePath": "api/WriteQuery/WriteQueryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

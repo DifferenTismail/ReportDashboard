@@ -13,9 +13,9 @@ namespace ReportDashboardAPI.Controllers
     public class DbTableController : ControllerBase
     {
         private readonly IDbTableService _dbTableService;
-
         public DbTableController(IDbTableService dbTableService)
         {
+
             _dbTableService = dbTableService;
         }
         [HttpGet("DbTableList")]
