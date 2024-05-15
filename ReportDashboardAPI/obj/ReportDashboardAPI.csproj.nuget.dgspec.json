@@ -111,6 +111,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj": {
+                "projectPath": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj"
+              },
               "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.EntityLayer\\ReportDashboard.EntityLayer.csproj": {
                 "projectPath": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.EntityLayer\\ReportDashboard.EntityLayer.csproj"
               }
@@ -132,6 +135,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -151,6 +158,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[23.4.0, )"
             }
           },
           "imports": [
@@ -369,11 +388,27 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

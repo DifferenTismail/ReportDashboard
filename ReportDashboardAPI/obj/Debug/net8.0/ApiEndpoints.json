@@ -74,22 +74,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ReportDashboardAPI.Controllers.DbTableController",
-    "Method": "VeriTabaniBaglantisi",
-    "RelativePath": "api/DbTable/VeriTabaniBaglantisi",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "ReportDashboard.DtoLayer.DbTableDto.GetDbTableDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ReportDashboardAPI.Controllers.ReportController",
     "Method": "CreateReport",
     "RelativePath": "api/Report/CreateReport",

@@ -5,7 +5,11 @@ using Microsoft.Data.SqlClient;
 using ReportDashboard.BusinessLayer.Abstarct;
 using ReportDashboard.DtoLayer.DbTableDto;
 using ReportDashboard.EntityLayer.Entities;
-
+using Npgsql;
+using Oracle.ManagedDataAccess.Client;
+using Microsoft.Data.Sqlite;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 namespace ReportDashboardAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -27,16 +31,31 @@ namespace ReportDashboardAPI.Controllers
         [HttpPost("CreateDbTable")]
         public IActionResult CreateDbTable(CreateDbTableDto createDbTableDto)
         {
+            if (createDbTableDto == null)
+            {
+                return BadRequest("Invalid data.");
+            }
+
             DbTable dbTable = new DbTable()
             {
+                DBMS_Name = createDbTableDto.DBMS_Name,
                 DbTable_ServerName = createDbTableDto.DbTable_ServerName,
                 DbTable_Database = createDbTableDto.DbTable_Database,
                 DbTable_UserName = createDbTableDto.DbTable_UserName,
                 DbTable_Password = createDbTableDto.DbTable_Password
             };
-            _dbTableService.TAdd(dbTable);
-            return Ok("Veri Tabanı Başarılı Bir Şekilde Kayıt Edildi");
+
+            try
+            {
+                _dbTableService.TAdd(dbTable);
+                return Ok("Veri Tabanı Başarılı Bir Şekilde Kayıt Edildi");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error: {ex.Message}");
+            }
         }
+
         [HttpDelete("DbTableDelete")]
         public IActionResult DeleteDbTable(int id)
         {
@@ -63,29 +82,6 @@ namespace ReportDashboardAPI.Controllers
         {
             var value = _dbTableService.TGetByID(id);
             return Ok(value);
-        }
-
-        [HttpPost("VeriTabaniBaglantisi")]
-        public IActionResult VeriTabaniBaglantisi([FromBody] GetDbTableDto model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            string connectionString = $"Server={model.DbTable_ServerName};Database={model.DbTable_Database};User Id={model.DbTable_UserName};Password={model.DbTable_Password};Integrated Security=True; TrustServerCertificate=True";
-            using (var connection = new SqlConnection(connectionString))
-            {
-                try
-                {
-                    connection.Open();
-                    return Ok("Veritabanı bağlantısı başarıyla yapıldı.");
-                }
-                catch (SqlException ex)
-                {
-                    return StatusCode(500, "Veritabanına bağlanırken bir hata oluştu: " + ex.Message);
-                }
-            }
         }
     }
 }
