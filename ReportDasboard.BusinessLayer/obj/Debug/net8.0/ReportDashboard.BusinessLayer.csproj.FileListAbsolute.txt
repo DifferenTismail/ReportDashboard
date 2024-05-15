@@ -16,3 +16,5 @@ C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\obj\Debug\net8.0\
 C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\obj\Debug\net8.0\refint\ReportDashboard.BusinessLayer.dll
 C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\obj\Debug\net8.0\ReportDashboard.BusinessLayer.pdb
 C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\obj\Debug\net8.0\ref\ReportDashboard.BusinessLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDasboard.BusinessLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.pdb
