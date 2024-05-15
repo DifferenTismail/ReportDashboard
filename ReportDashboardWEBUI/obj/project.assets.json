@@ -1994,6 +1994,16 @@
             "rid": "win"
           }
         }
+      },
+      "ReportDashboard.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ReportDashboard.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportDashboard.DtoLayer.dll": {}
+        }
       }
     }
   },
@@ -5682,11 +5692,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ReportDashboard.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../ReportDashboard.DtoLayer/ReportDashboard.DtoLayer.csproj",
+      "msbuildProject": "../ReportDashboard.DtoLayer/ReportDashboard.DtoLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "ReportDashboard.DtoLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5725,7 +5741,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj": {
+              "projectPath": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -224,3 +224,5 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\bin\Debug\net8.0\runtimes
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ReportDashboardWEBUI.csproj.AssemblyReference.cache
 C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\obj\Debug\net8.0\ReportDa.9BE6EBD6.Up2Date
+C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\bin\Debug\net8.0\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboardWEBUI\bin\Debug\net8.0\ReportDashboard.DtoLayer.pdb
