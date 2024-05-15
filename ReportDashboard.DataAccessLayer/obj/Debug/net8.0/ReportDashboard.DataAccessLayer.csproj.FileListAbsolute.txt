@@ -16,3 +16,5 @@ C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.genruntimeconfig.cache
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ref\ReportDashboard.DataAccessLayer.dll
 C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\obj\Debug\net8.0\ReportDashboard.DataAccessLayer.sourcelink.json
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.dll
+C:\cSharpDersleri\ReportDashboard\ReportDashboard.DataAccessLayer\bin\Debug\net8.0\ReportDashboard.DtoLayer.pdb

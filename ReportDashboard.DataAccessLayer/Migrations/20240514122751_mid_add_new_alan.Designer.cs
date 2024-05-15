@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ReportDashboard.DataAccessLayer.Concrete;
 
@@ -11,9 +12,11 @@ using ReportDashboard.DataAccessLayer.Concrete;
 namespace ReportDashboard.DataAccessLayer.Migrations
 {
     [DbContext(typeof(ReportDashboardContext))]
-    partial class ReportDashboardContextModelSnapshot : ModelSnapshot
+    [Migration("20240514122751_mid_add_new_alan")]
+    partial class mid_add_new_alan
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
