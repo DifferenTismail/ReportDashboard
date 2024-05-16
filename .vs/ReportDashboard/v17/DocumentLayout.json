@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\cSharpDersleri\\ReportDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E0020D0-5D3C-4CED-A17D-CBC957567566}|ReportDashboard.DataAccessLayer\\ReportDashboard.DataAccessLayer.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboard.dataaccesslayer\\entityframework\\efdbtabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0020D0-5D3C-4CED-A17D-CBC957567566}|ReportDashboard.DataAccessLayer\\ReportDashboard.DataAccessLayer.csproj|solutionrelative:reportdashboard.dataaccesslayer\\entityframework\\efdbtabledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\controllers\\dbtablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardwebui\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|solutionrelative:reportdashboardwebui\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F2CCD5-5BFD-465D-A85A-681ED076DF13}|ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboard.dtolayer\\dbtabledto\\resultdbtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F2CCD5-5BFD-465D-A85A-681ED076DF13}|ReportDashboard.DtoLayer\\ReportDashboard.DtoLayer.csproj|solutionrelative:reportdashboard.dtolayer\\dbtabledto\\resultdbtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardwebui\\views\\connection\\connectionlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|solutionrelative:reportdashboardwebui\\views\\connection\\connectionlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardwebui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{397D3C39-2933-44E7-9657-798F303144F8}|ReportDashboardWEBUI\\ReportDashboardWEBUI.csproj|solutionrelative:reportdashboardwebui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardapi\\controllers\\dbtablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\controllers\\dbtablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}|ReportDashboard.EntityLayer\\ReportDashboard.EntityLayer.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboard.entitylayer\\entities\\dbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B5F11C-529D-4358-9C54-489F1FB9A0DC}|ReportDashboard.EntityLayer\\ReportDashboard.EntityLayer.csproj|solutionrelative:reportdashboard.entitylayer\\entities\\dbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\mapping\\dbtablemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\mapping\\dbtablemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|c:\\csharpdersleri\\reportdashboard\\reportdashboardapi\\mapping\\reportmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\mapping\\reportmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|C:\\cSharpDersleri\\ReportDashboard\\reportdashboardapi\\controllers\\writequerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BFF1D6-A250-4DA7-8AE2-7173C24CB6DF}|ReportDashboardAPI\\ReportDashboardAPI.csproj|solutionrelative:reportdashboardapi\\controllers\\writequerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,91 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 358,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ReportDashboardAPI\\appsettings.json",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\appsettings.json",
+              "RelativeToolTip": "ReportDashboardAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T19:58:05.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Program.cs",
+              "RelativeDocumentMoniker": "ReportDashboardWEBUI\\Program.cs",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Program.cs",
+              "RelativeToolTip": "ReportDashboardWEBUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:30:04.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectionController.cs",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Controllers\\ConnectionController.cs",
+              "RelativeDocumentMoniker": "ReportDashboardWEBUI\\Controllers\\ConnectionController.cs",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Controllers\\ConnectionController.cs",
+              "RelativeToolTip": "ReportDashboardWEBUI\\Controllers\\ConnectionController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:19:59.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnectionList.cshtml",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Views\\Connection\\ConnectionList.cshtml",
+              "RelativeDocumentMoniker": "ReportDashboardWEBUI\\Views\\Connection\\ConnectionList.cshtml",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardWEBUI\\Views\\Connection\\ConnectionList.cshtml",
+              "RelativeToolTip": "ReportDashboardWEBUI\\Views\\Connection\\ConnectionList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T07:59:06.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultDbTableDto.cs",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\DbTableDto\\ResultDbTableDto.cs",
+              "RelativeDocumentMoniker": "ReportDashboard.DtoLayer\\DbTableDto\\ResultDbTableDto.cs",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DtoLayer\\DbTableDto\\ResultDbTableDto.cs",
+              "RelativeToolTip": "ReportDashboard.DtoLayer\\DbTableDto\\ResultDbTableDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:15:41.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EfDbTableDal.cs",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DataAccessLayer\\EntityFramework\\EfDbTableDal.cs",
+              "RelativeDocumentMoniker": "ReportDashboard.DataAccessLayer\\EntityFramework\\EfDbTableDal.cs",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.DataAccessLayer\\EntityFramework\\EfDbTableDal.cs",
+              "RelativeToolTip": "ReportDashboard.DataAccessLayer\\EntityFramework\\EfDbTableDal.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:11:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DbTableController.cs",
               "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\DbTableController.cs",
               "RelativeDocumentMoniker": "ReportDashboardAPI\\Controllers\\DbTableController.cs",
               "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\DbTableController.cs",
               "RelativeToolTip": "ReportDashboardAPI\\Controllers\\DbTableController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDEAAAA3AAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:42:23.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T05:45:17.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ReportDashboardAPI\\Program.cs",
-              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Program.cs",
-              "RelativeToolTip": "ReportDashboardAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "DocumentIndex": 7,
+              "Title": "WriteQueryController.cs",
+              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\WriteQueryController.cs",
+              "RelativeDocumentMoniker": "ReportDashboardAPI\\Controllers\\WriteQueryController.cs",
+              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\WriteQueryController.cs",
+              "RelativeToolTip": "ReportDashboardAPI\\Controllers\\WriteQueryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:33:12.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbTable.cs",
-              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.EntityLayer\\Entities\\DbTable.cs",
-              "RelativeDocumentMoniker": "ReportDashboard.EntityLayer\\Entities\\DbTable.cs",
-              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboard.EntityLayer\\Entities\\DbTable.cs",
-              "RelativeToolTip": "ReportDashboard.EntityLayer\\Entities\\DbTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:18:00.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbTableMapping.cs",
-              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Mapping\\DbTableMapping.cs",
-              "RelativeDocumentMoniker": "ReportDashboardAPI\\Mapping\\DbTableMapping.cs",
-              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Mapping\\DbTableMapping.cs",
-              "RelativeToolTip": "ReportDashboardAPI\\Mapping\\DbTableMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:16:04.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReportMapping.cs",
-              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Mapping\\ReportMapping.cs",
-              "RelativeDocumentMoniker": "ReportDashboardAPI\\Mapping\\ReportMapping.cs",
-              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Mapping\\ReportMapping.cs",
-              "RelativeToolTip": "ReportDashboardAPI\\Mapping\\ReportMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:11:12.106Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 358,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "ReportDashboardAPI\\Controllers\\ReportController.cs",
-              "ToolTip": "C:\\cSharpDersleri\\ReportDashboard\\ReportDashboardAPI\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "ReportDashboardAPI\\Controllers\\ReportController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:18:36.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T06:05:35.677Z"
             }
           ]
         }
