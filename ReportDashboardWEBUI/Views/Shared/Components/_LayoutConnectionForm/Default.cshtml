@@ -1,35 +1,55 @@
-﻿<form asp-controller="Connection" asp-action="ConnectToDatabase" method="post">
+﻿@model ReportDashboard.DtoLayer.DbTableDto.CreateDbTableDto
+
+<form method="post" action="/Connection/Index">
     <div class="col-md-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Veri Tabanı Bilgilerini Giriniz</h4>
+                <h4 class="card-title">Veri Tabanı Kayıt Sayfası</h4>
                 <p class="card-description">
-                    Doğruluğuna Dikkat Ediniz !
+                    Doğruluğuna Dikkat Ediniz!
                 </p>
+                <div class="form-group row">
+                    <div class="col">
+                        <label>Veri Tabanı Türü</label>
+                        <select id="DBMS_Name" class="form-control" asp-for="DBMS_Name">
+                            <option value="SqlServer">SQL Server</option>
+                            <option value="MySql">MySQL</option>
+                            <option value="PostgreSql">PostgreSQL</option>
+                            <option value="Oracle">Oracle</option>
+                            <option value="SqlLite">SqlLite</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="form-group row">
                     <div class="col">
                         <label>Server Name</label>
                         <div id="the-basics">
-                            <input class="typeahead" type="text" placeholder="Server Name" id="DbTable_ServerName" name="DbTable_ServerName">
+                            <input class="typeahead" type="text" placeholder="Server Name" asp-for="DbTable_ServerName">
                         </div>
                     </div>
                     <div class="col">
                         <label>User Name</label>
                         <div id="bloodhound">
-                            <input class="typeahead" type="text" placeholder="UserName" id="DbTable_UserName" name="DbTable_UserName">
+                            <input class="typeahead" type="text" placeholder="User Name" asp-for="DbTable_UserName">
                         </div>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col">
+                        <label>Database</label>
+                        <div id="the-basics">
+                            <input class="typeahead" type="text" placeholder="Database" asp-for="DbTable_Database">
+                        </div>
+                    </div>
+                    <div class="col">
                         <label>Password</label>
                         <div id="the-basics">
-                            <input class="typeahead" type="text" placeholder="Password" id="DbTable_Password" name="DbTable_Password">
+                            <input class="typeahead" type="password" placeholder="Password" asp-for="DbTable_Password">
                         </div>
                     </div>
                 </div>
+                <button type="submit" class="btn btn-secondary">Kaydet</button>
             </div>
-            <button type="submit" class="btn btn-primary">Connect</button>
         </div>
     </div>
 </form>

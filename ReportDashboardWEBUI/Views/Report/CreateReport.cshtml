@@ -1,0 +1,333 @@
+﻿@{
+    ViewData["Title"] = "CreateReport";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="sidebar">
+                <h2>Seçenekler</h2>
+                <div class="component" draggable="true" data-type="header">Başlık</div>
+                <div class="component" draggable="true" data-type="paragraph">Paragraf</div>
+                <div class="component" draggable="true" data-type="chart">Chart</div>
+                <!-- Diğer bileşenleri ekleyin -->
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="canvas" id="canvas">
+                <!-- Dinamik bileşenler buraya eklenecek -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .sidebar {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-right: 1px solid #ccc;
+        height: 100vh;
+    }
+
+    .component {
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #d9d9d9;
+        border: 1px solid #ccc;
+        cursor: grab;
+    }
+
+        .component.dragging {
+            opacity: 0.5;
+        }
+
+    .canvas {
+        min-height: 500px;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .draggable {
+        border: 1px dashed #000;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        min-width: 150px;
+        flex: 1; /* Bileşenlerin eşit genişlikte olmasını sağlar */
+    }
+
+
+    .resize-handle {
+        width: 10px;
+        height: 10px;
+        background: #000;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: se-resize;
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var components = document.querySelectorAll('.component');
+        var canvas = document.getElementById('canvas');
+
+        components.forEach(function (component) {
+            component.addEventListener('dragstart', function (e) {
+                e.dataTransfer.setData('text/plain', e.target.dataset.type);
+                e.target.classList.add('dragging');
+            });
+
+            component.addEventListener('dragend', function (e) {
+                e.target.classList.remove('dragging');
+            });
+        });
+
+        canvas.addEventListener('dragover', function (e) {
+            e.preventDefault();
+        });
+
+        canvas.addEventListener('drop', function (e) {
+            e.preventDefault();
+            var type = e.dataTransfer.getData('text/plain');
+            var newElement;
+
+            // Sınırlamaları kontrol et
+            var currentHeaders = document.querySelectorAll('.canvas .draggable[data-type="header"]').length;
+            var currentParagraphs = document.querySelectorAll('.canvas .draggable[data-type="paragraph"]').length;
+            var currentCharts = document.querySelectorAll('.canvas .draggable[data-type="chart"]').length;
+
+            switch (type) {
+                case 'header':
+                    if (currentHeaders == 2) {
+                        alert('En fazla 2 başlık ekleyebilirsiniz.');
+                        return;
+                    }
+                    newElement = document.createElement('div');
+                    newElement.classList.add('col-md-12', 'draggable');
+                    newElement.innerHTML = '<h2 contenteditable="true">Yeni Başlık</h2><div class="resize-handle"></div>';
+                    break;
+                case 'paragraph':
+                    if (currentParagraphs >= 3) {
+                        alert('En fazla 3 paragraf ekleyebilirsiniz.');
+                        return;
+                    }
+                    newElement = document.createElement('div');
+                    newElement.classList.add('col-md-6', 'draggable');
+                    newElement.innerHTML = '<p contenteditable="true">Yeni Paragraf</p><div class="resize-handle"></div>';
+                    break;
+                case 'chart':
+                    if (currentCharts >= 2) {
+                        alert('En fazla 2 grafik ekleyebilirsiniz.');
+                        return;
+                    }
+                    newElement = document.createElement('div');
+                    newElement.classList.add('col-md-6', 'draggable');
+                    newElement.innerHTML = `
+                        <div class="chart-container" style="width: 100%; height: 300px;"></div>
+                        <div class="chart-options">
+                            <select class="chart-type">
+                                <option value="line">Line Chart</option>
+                                <option value="bar">Bar Chart</option>
+                                <option value="pie">Pie Chart</option>
+                                <!-- Diğer chart türlerini ekleyin -->
+                            </select>
+                            <button class="apply-chart">Apply</button>
+                        </div>
+                        <div class="resize-handle"></div>
+                    `;
+                    break;
+                // Diğer bileşenler için case blokları ekleyin
+            }
+
+            if (newElement) {
+                canvas.appendChild(newElement);
+                addResizeHandles(newElement);
+                if (type === 'chart') {
+                    initializeChart(newElement.querySelector('.chart-container'), 'line'); // Varsayılan olarak line chart
+                    setupChartOptions(newElement);
+                }
+            }
+        });
+
+        function addResizeHandles(element) {
+            var resizeHandle = element.querySelector('.resize-handle');
+
+            resizeHandle.addEventListener('mousedown', function (e) {
+                e.preventDefault();
+                window.addEventListener('mousemove', resizeElement);
+                window.addEventListener('mouseup', stopResize);
+            });
+
+            function resizeElement(e) {
+                var rect = element.getBoundingClientRect();
+                var newWidth = e.clientX - rect.left;
+                var newHeight = e.clientY - rect.top;
+                element.style.width = newWidth + 'px';
+                element.style.height = newHeight + 'px';
+                if (element.querySelector('.chart-container')) {
+                    element.querySelector('.chart-container').style.width = newWidth + 'px';
+                    element.querySelector('.chart-container').style.height = newHeight + 'px';
+                    initializeChart(element.querySelector('.chart-container'), element.querySelector('.chart-type').value);
+                }
+            }
+
+            function stopResize() {
+                window.removeEventListener('mousemove', resizeElement);
+                window.removeEventListener('mouseup', stopResize);
+            }
+        }
+
+        function setupChartOptions(element) {
+            var chartOptions = element.querySelector('.chart-options');
+            var chartTypeSelect = element.querySelector('.chart-type');
+            var applyButton = element.querySelector('.apply-chart');
+
+            chartOptions.style.display = 'block';
+
+            applyButton.addEventListener('click', function (e) {
+                var chartType = chartTypeSelect.value;
+                var chartContainer = element.querySelector('.chart-container');
+                initializeChart(chartContainer, chartType);
+                chartOptions.style.display = 'none';
+            });
+        }
+
+        function initializeChart(container, type) {
+            var myChart = echarts.init(container);
+            var option;
+
+            switch (type) {
+                case 'line':
+                    option = {
+                        title: {
+                            text: 'Line Chart'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['Data1', 'Data2']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name: 'Data1',
+                                type: 'line',
+                                stack: 'Total',
+                                data: [120, 132, 101, 134, 90, 230, 210]
+                            },
+                            {
+                                name: 'Data2',
+                                type: 'line',
+                                stack: 'Total',
+                                data: [220, 182, 191, 234, 290, 330, 310]
+                            }
+                        ]
+                    };
+                    break;
+                case 'bar':
+                    option = {
+                        title: {
+                            text: 'Bar Chart'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['Data1', 'Data2']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name: 'Data1',
+                                type: 'bar',
+                                data: [120, 200, 150, 80, 70, 110, 130]
+                            },
+                            {
+                                name: 'Data2',
+                                type: 'bar',
+                                data: [60, 80, 70, 110, 130, 120, 150]
+                            }
+                        ]
+                    };
+                    break;
+                case 'pie':
+                    option = {
+                        title: {
+                            text: 'Pie Chart',
+                            x: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'item',
+                            formatter: '{a} <br/>{b} : {c} ({d}%)'
+                        },
+                        legend: {
+                            orient: 'vertical',
+                            left: 'left',
+                            data: ['Direct', 'Email', 'Affiliate', 'Video', 'Search']
+                        },
+                        series: [
+                            {
+                                name: 'Access source',
+                                type: 'pie',
+                                radius: '55%',
+                                center: ['50%', '60%'],
+                                data:
+                                    [
+                                        { value: 335, name: 'Direct' },
+                                        { value: 310, name: 'Email' },
+                                        { value: 234, name: 'Affiliate' },
+                                        { value: 135, name: 'Video' },
+                                        { value: 1548, name: 'Search' }
+                                    ],
+                                emphasis: {
+                                    itemStyle: {
+                                        shadowBlur: 10,
+                                        shadowOffsetX: 0,
+                                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                    }
+                                }
+                            }
+                        ]
+                    };
+                    break;
+                // Diğer chart türleri için case blokları ekleyin
+            }
+
+            myChart.setOption(option);
+        }
+    });
+</script>
